@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Canonical host: https://omarzandag.me/
+Sitemap: https://omarzandag.me/sitemap.xml

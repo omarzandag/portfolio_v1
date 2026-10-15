@@ -344,6 +344,23 @@ h3 {
   margin-bottom: 2.25rem;
 }
 
+/* ---------- Hero name + tagline ----------
+   The <h1> carries the exact name "Omar Zandag" (SEO) and the tagline sits
+   directly under it at a slightly smaller weight. */
+
+.hero-name {
+  display: block;
+}
+
+.hero-tagline {
+  display: block;
+  font-size: clamp(1.375rem, 2.6vw, 1.875rem);
+  font-weight: 500;
+  line-height: 1.35;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+}
+
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
