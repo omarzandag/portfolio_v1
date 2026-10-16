@@ -43,6 +43,9 @@
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
+  <!-- Résumé is public and indexable: link the PDF so crawlers pick it up -->
+  <link rel="alternate" type="application/pdf" title="Omar Zandag — Résumé (PDF)" href="resume/omar_zandag.pdf">
+
   <!-- ============ Fonts ============ -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -271,6 +274,14 @@
           </p>
           <div class="hero-actions">
             <a class="btn btn-primary" href="#experience">View experience</a>
+            <a class="btn btn-resume" href="resume/omar_zandag.pdf" download="Omar-Zandag-Resume.pdf" aria-label="Download Omar Zandag's résumé as a PDF">
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M12 3v12"/>
+                <path d="M7 10l5 5 5-5"/>
+                <path d="M5 21h14"/>
+              </svg>
+              Download résumé
+            </a>
             <a class="btn btn-ghost" href="#contact">Get in touch</a>
           </div>
         </div>
@@ -555,6 +566,16 @@
           as soon as I can.
         </p>
         <a class="contact-email" href="mailto:omar.zandag@gmail.com">omar.zandag@gmail.com</a>
+        <p class="contact-actions">
+          <a class="btn btn-resume" href="resume/omar_zandag.pdf" download="Omar-Zandag-Resume.pdf" aria-label="Download Omar Zandag's résumé as a PDF">
+            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M12 3v12"/>
+              <path d="M7 10l5 5 5-5"/>
+              <path d="M5 21h14"/>
+            </svg>
+            Download résumé (PDF)
+          </a>
+        </p>
         <p class="contact-phone">+212 6-74-32-55-59</p>
         <ul class="social-list">
           <li><a href="https://github.com/omarzandag" target="_blank" rel="noopener me">GitHub</a></li>

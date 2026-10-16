@@ -267,6 +267,29 @@ h3 {
   background: var(--paper-alt);
 }
 
+/* ---------- Résumé download button ---------- */
+
+.btn-resume {
+  border: 1px solid var(--accent);
+  color: var(--accent-deep);
+  background: transparent;
+}
+
+.btn-resume:hover {
+  background: var(--accent-tint);
+  border-color: var(--accent-deep);
+}
+
+.btn-icon {
+  width: 17px;
+  height: 17px;
+  flex: none;
+}
+
+.contact-actions {
+  margin-top: 1.75rem;
+}
+
 /* ---------- Header ---------- */
 
 .site-header {
